@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*******************************************************************************************/
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+/*******************************************************************************************/
+/*******************************************************************************************/
+@font-face {
+  font-family: 'Futura';
+  src: url('../fonts/Futura-Medium.eot');
+  src: url('../fonts/Futura-Medium.eot?iefix') format('eot'),
+       url('../fonts/Futura-Medium.woff') format('woff'),
+       url('../fonts/Futura-Medium.ttf') format('truetype'),
+       url('../fonts/Futura-Mediu.svg#webfont90E2uSjN') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  background: #fff;
+  color: #aaa;
+  font-family: "Futura", "Helvetica Neue", helvetica, sans-serif;
+  height: 100%;
+}
+
+a, a:visited, a:active, a:hover {
+  color: #000;
+}
+
+p {
+  margin: 15px 0;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#banner {
+  text-align: center;
+}
+
+#banner h1 {
+  padding: 25px;
+}
