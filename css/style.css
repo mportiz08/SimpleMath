@@ -81,6 +81,11 @@ h4 {
   opacity: 0.75;
 }
 
+.edit a {
+  color: #c01422;
+  font-weight: bold;
+}
+
 #container {
   width: 960px;
   margin: 0 auto;
@@ -99,4 +104,24 @@ h4 {
 
 #banner h2 {
   padding-bottom: 25px;
+}
+
+#content {
+  padding: 25px;
+}
+
+#screenshots {
+  margin: 0 auto;
+}
+
+#screenshots li {
+  margin: 125px 0;
+}
+
+#screenshots li:first-child {
+  margin-top: 0px;
+}
+
+#screenshots li:last-child {
+  margin-bottom: 0px;
 }
