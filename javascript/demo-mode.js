@@ -23,16 +23,15 @@ $(document).ready(function() {
   $('#demo-mode-toggle').click(function() {
     console.log('demo mode now on');
     var screens = [
-      '#nav-welcome',
-      '#nav-events',
-      '#nav-tweets',
-      '#nav-lyrics',
-      '#nav-photos',
-      '#nav-videos'
+      '#welcome',
+      '#events',
+      '#tweets',
+      '#lyrics',
+      '#photos',
+      '#videos'
     ];
     var i = 0;
     var update = function() {
-      console.log('update called with ' + screens[i]);
       $.scrollTo(screens[i], 2500);
       i = i + 1;
       if(i == 6) {
