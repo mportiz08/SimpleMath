@@ -86,6 +86,13 @@ h4 {
   font-weight: bold;
 }
 
+#demo-mode-toggle {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 12px;
+}
+
 #container {
   width: 960px;
   margin: 0 auto;
