@@ -73,6 +73,14 @@ h4 {
   font-size: 18px;
 }
 
+.edit {
+  font-family: Tahoma, arial, sans-serif;
+  font-size: 16px;
+  color: #c01422;
+  letter-spacing: 2px;
+  opacity: 0.75;
+}
+
 #container {
   width: 960px;
   margin: 0 auto;
@@ -80,8 +88,15 @@ h4 {
 
 #banner {
   text-align: center;
+  letter-spacing: 5px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 #banner h1 {
   padding: 25px;
+}
+
+#banner h2 {
+  padding-bottom: 25px;
 }
