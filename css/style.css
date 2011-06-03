@@ -110,6 +110,20 @@ h4 {
   padding: 25px;
 }
 
+#navigation {
+  padding: 25px 0;
+}
+
+#nav-icons {
+  margin: 0 auto;
+  width: 650px;
+}
+
+#nav-icons li {
+  display: inline;
+  padding: 0 25px;
+}
+
 #screenshots {
   margin: 0 auto;
 }
